@@ -60,3 +60,17 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# jQuery gem, needed for the Bootstrap Gem, among other things
+gem 'jquery-rails'
+
+# Bootstrap. Note that these versions and this setup are used specifically to 
+# play nice with this version of rails and the setup on this virtual
+# environment. This does not follow the recommended setup on the bootstrap
+# gem page.
+gem 'popper_js', '~> 1.11.1'
+gem 'bootstrap', '4.0.0.alpha6'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
