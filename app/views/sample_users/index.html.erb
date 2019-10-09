@@ -1,0 +1,11 @@
+<% require "rexml/document" %>
+
+<h3> From the service object: </h3>
+<h3> User name: <%= @user_name %> </h3>
+<h3> Collection: </h3>
+Total # of games: <%= @total_games %>
+<br />
+<%= @collection.each do |id, title| %>
+  <%= "#{title}, ID number: #{id}" %>
+  <br />
+<% end %>

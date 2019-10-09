@@ -74,3 +74,12 @@ gem 'bootstrap', '4.0.0.alpha6'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
+
+### Gems needed for parsing the BGG API ###
+# MultiXML: A generic swappable back-end for XML parsing
+#   (required for HTTParty)
+gem 'multi_xml', '~> 0.5.5'
+# HTTParty: used to process GET requests
+gem 'httparty', '~> 0.17.1'
+# REXML: used to interpret XML files
+gem 'rexml', '~> 3.2', '>= 3.2.2'
