@@ -82,4 +82,4 @@ gem 'multi_xml', '~> 0.5.5'
 # HTTParty: used to process GET requests
 gem 'httparty', '~> 0.17.1'
 # REXML: used to interpret XML files
-gem 'rexml', '~> 3.2', '>= 3.2.2'
+gem 'rexml', '~> 3.2'
