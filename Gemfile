@@ -80,6 +80,6 @@ end
 #   (required for HTTParty)
 gem 'multi_xml', '~> 0.5.5'
 # HTTParty: used to process GET requests
-gem 'httparty', '~> 0.17.1'
+gem 'httparty', '~> 0.21.0'
 # REXML: used to interpret XML files
 gem 'rexml', '~> 3.2', '>= 3.2.2'
